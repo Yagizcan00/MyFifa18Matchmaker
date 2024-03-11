@@ -33,14 +33,21 @@ function Home() {
   const activeTeamOneCategory = {
     display: "flex"
   }
+  const inActiveTeamTwoCategory = {
+    display: "none"
+  }
+  const activeTeamTwoCategory = {
+    display: "flex"
+  }
+
 
 
   // Just for testing.
-  // useEffect(() => {
+  useEffect(() => {
 
-  //   console.log(teamOneCategoryCheck);
+    console.log(teamOneCategory + " " + teamTwoCategory);
 
-  // }, [teamOneCategoryCheck])
+  }, [teamOneCategory, teamTwoCategory])
 
 
   return (
@@ -56,7 +63,7 @@ function Home() {
 
             {
               categories.map((item) => (
-                <p key={item} onClick={() => teamOneCategory(item) & setTeamOneCategoryCheck(!teamOneCategoryCheck)}>
+                <p key={item} onClick={() => setTeamOneCategory(item) & setTeamOneCategoryCheck(!teamOneCategoryCheck)}>
                   {item}
                 </p>
               ))
@@ -67,6 +74,20 @@ function Home() {
         </section>
 
         <section className='TeamTwoCategory'>
+
+          <button className='TeamTwoCategoryButton' onClick={() => setTeamTwoCategoryCheck(!teamTwoCategoryCheck)} >Team One Category</button>
+
+          <section className='DropdownCategory' style={teamTwoCategoryCheck ? activeTeamTwoCategory : inActiveTeamTwoCategory}>
+
+            {
+              categories.map((item) => (
+                <p key={item} onClick={() => setTeamTwoCategory(item) & setTeamTwoCategoryCheck(!teamTwoCategoryCheck)}>
+                  {item}
+                </p>
+              ))
+            }
+
+          </section>
 
         </section>
 
