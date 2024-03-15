@@ -19,13 +19,14 @@
         flex-direction: row;
         justify-content: center;
 
-        .TeamOneCategory {
+        .TeamCategory {
             display: flex;
             flex-direction: column;
+            align-items: center;
 
             margin: 0px 10px;
 
-            .TeamOneCategoryButton {
+            .TeamCategoryButton {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -39,21 +40,36 @@
                 border: 2px solid black;
                 border-radius: 10px;
 
-                background-color: lightblue;
+                background-color: rgb(220, 220, 220);
 
                 font-size: 20px;
                 font-family: Arial, Helvetica, sans-serif;
                 font-weight: 500;
                 color: black;
+
+                cursor: pointer;
             }
 
-            .DropdownCategory {
+            .DropdownCategoryActive {
+                opacity: 1;
+                transition: all 0.5s ease;
+
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
 
-                margin: 10px 0px 0px 0px;
+                height: auto;
+                width: 80%;
+
+                padding: 5px 0px;
+
+                background-color: rgb(220, 220, 220);
+
+                border: 2px solid black;
+                border-top: 0px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
 
                 p {
                     display: flex;
@@ -64,7 +80,7 @@
                     width: auto;
                     height: auto;
 
-                    margin: 5px 0px;
+                    margin: 2.5px 0px;
                     padding: 10px;
 
                     border: 2px solid black;
@@ -77,43 +93,27 @@
                     cursor: pointer;
                 }
             }
-        }
 
-        .TeamTwoCategory {
-            display: flex;
-            flex-direction: column;
+            .DropdownCategoryInactive {
+                opacity: 0;
+                transition: all 0.5s ease;
 
-            margin: 0px 10px;
-
-            .TeamTwoCategoryButton {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
 
-                width: auto;
                 height: auto;
+                width: 80%;
 
-                padding: 10px;
+                padding: 5px 0px;
+
+                background-color: rgb(220, 220, 220);
 
                 border: 2px solid black;
-                border-radius: 10px;
-
-                background-color: lightblue;
-
-                font-size: 20px;
-                font-family: Arial, Helvetica, sans-serif;
-                font-weight: 500;
-                color: black;
-            }
-
-            .DropdownCategory {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-
-                margin: 10px 0px 0px 0px;
+                border-top: 0px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
 
                 p {
                     display: flex;
@@ -124,7 +124,7 @@
                     width: auto;
                     height: auto;
 
-                    margin: 5px 0px;
+                    margin: 2.5px 0px;
                     padding: 10px;
 
                     border: 2px solid black;
@@ -146,6 +146,129 @@
 
         display: flex;
         flex-direction: row;
+        justify-content: center;
+
+        margin: 10px 0px 0px 0px;
+
+        .TeamClass {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            margin: 0px 10px;
+
+            .TeamClassButton {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                width: auto;
+                height: auto;
+
+                padding: 10px;
+
+                border: 2px solid black;
+                border-radius: 10px;
+
+                background-color: rgb(220, 220, 220);
+
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 500;
+                color: black;
+
+                cursor: pointer;
+            }
+
+            .DropdownClassActive {
+                opacity: 1;
+                transition: all 0.5s ease;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                height: auto;
+                width: 50%;
+
+                padding: 5px 0px;
+
+                background-color: rgb(220, 220, 220);
+
+                border: 2px solid black;
+                border-top: 0px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+
+                p {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    width: auto;
+                    height: auto;
+
+                    margin: 2.5px 0px;
+                    padding: 10px;
+
+                    border: 2px solid black;
+                    border-radius: 10px;
+                    background-color: rgb(0, 120, 255);
+
+                    color: white;
+                    font-size: 17.5px;
+
+                    cursor: pointer;
+                }
+            }
+
+            .DropdownClassInactive {
+                opacity: 0;
+                transition: all 0.5s ease;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                height: auto;
+                width: 50%;
+
+                padding: 5px 0px;
+
+                background-color: rgb(220, 220, 220);
+
+                border: 2px solid black;
+                border-top: 0px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+
+                p {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    width: auto;
+                    height: auto;
+
+                    margin: 2.5px 0px;
+                    padding: 10px;
+
+                    border: 2px solid black;
+                    border-radius: 10px;
+                    background-color: rgb(0, 120, 255);
+
+                    color: white;
+                    font-size: 17.5px;
+
+                    cursor: pointer;
+                }
+            }
+        }
     }
 
     .ThirdLine {
@@ -153,6 +276,55 @@
         width: 80vw;
 
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
+
+        .RunButton {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            width: auto;
+            height: auto;
+
+            padding: 10px;
+
+            border: 2px solid black;
+            border-radius: 10px;
+
+            background-color: rgb(220, 220, 220);
+
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            color: black;
+
+            cursor: pointer;
+        }
+
+        .Teams {
+            display: flex;
+            flex-direction: row;
+
+            h1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                font-size: 150%;
+                color: white;
+
+                padding: 10px;
+
+                background-color: rgb(0, 120, 255);
+
+                border: 2px solid black;
+                border-radius: 10px;
+
+                margin: 30px 10px;
+            }
+        }
     }
 }

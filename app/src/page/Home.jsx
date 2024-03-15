@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import "./Home.scss"
 import MyContext from '../context/MyContext'
 
@@ -17,37 +17,18 @@ function Home() {
     setTeamTwoClass,
     categories,
     leagueClasses,
-    nationalClasses
+    nationalClasses,
+    SelectTeam,
+    teamOne,
+    teamTwo
   } = useContext(MyContext);
 
-  // State's for dropdown items.
+
+  // States for dropdown items.
   const [teamOneCategoryCheck, setTeamOneCategoryCheck] = useState(false)
   const [teamTwoCategoryCheck, setTeamTwoCategoryCheck] = useState(false)
   const [teamOneClassCheck, setTeamOneClassCheck] = useState(false)
   const [teamTwoClassCheck, setTeamTwoClassCheck] = useState(false)
-
-
-  const inActiveTeamOneCategory = {
-    display: "none"
-  }
-  const activeTeamOneCategory = {
-    display: "flex"
-  }
-  const inActiveTeamTwoCategory = {
-    display: "none"
-  }
-  const activeTeamTwoCategory = {
-    display: "flex"
-  }
-
-
-
-  // Just for testing.
-  useEffect(() => {
-
-    console.log(teamOneCategory + " " + teamTwoCategory);
-
-  }, [teamOneCategory, teamTwoCategory])
 
 
   return (
@@ -55,11 +36,11 @@ function Home() {
 
       <section className='FirstLine'>
 
-        <section className='TeamOneCategory'>
+        <section className='TeamCategory'>
 
-          <button className='TeamOneCategoryButton' onClick={() => setTeamOneCategoryCheck(!teamOneCategoryCheck)} >Team One Category</button>
+          <button className='TeamCategoryButton' onClick={() => setTeamOneCategoryCheck(!teamOneCategoryCheck)}>Team One Category</button>
 
-          <section className='DropdownCategory' style={teamOneCategoryCheck ? activeTeamOneCategory : inActiveTeamOneCategory}>
+          <section className={teamOneCategoryCheck ? 'DropdownCategoryActive' : 'DropdownCategoryInactive'}>
 
             {
               categories.map((item) => (
@@ -73,11 +54,11 @@ function Home() {
 
         </section>
 
-        <section className='TeamTwoCategory'>
+        <section className='TeamCategory'>
 
-          <button className='TeamTwoCategoryButton' onClick={() => setTeamTwoCategoryCheck(!teamTwoCategoryCheck)} >Team One Category</button>
+          <button className='TeamCategoryButton' onClick={() => setTeamTwoCategoryCheck(!teamTwoCategoryCheck)}>Team Two Category</button>
 
-          <section className='DropdownCategory' style={teamTwoCategoryCheck ? activeTeamTwoCategory : inActiveTeamTwoCategory}>
+          <section className={teamTwoCategoryCheck ? 'DropdownCategoryActive' : 'DropdownCategoryInactive'}>
 
             {
               categories.map((item) => (
@@ -95,9 +76,68 @@ function Home() {
 
       <section className='SecondLine'>
 
+        <section className='TeamClass'>
+
+          <button className='TeamClassButton' onClick={() => setTeamOneClassCheck(!teamOneClassCheck)}>Team One Class</button>
+
+          <section className={teamOneClassCheck ? 'DropdownClassActive' : 'DropdownClassInactive'}>
+
+            {
+              (teamOneCategory === "League")
+                ?
+                (leagueClasses.map((item) => (
+                  <p key={item} onClick={() => setTeamOneClass(item) & setTeamOneClassCheck(!teamOneClassCheck)}>
+                    {item}
+                  </p>
+                )))
+                :
+                (nationalClasses.map((item) => (
+                  <p key={item} onClick={() => setTeamOneClass(item) & setTeamOneClassCheck(!teamOneClassCheck)}>
+                    {item}
+                  </p>
+                )))
+            }
+
+          </section>
+
+        </section>
+
+        <section className='TeamClass'>
+
+          <button className='TeamClassButton' onClick={() => setTeamTwoClassCheck(!teamTwoClassCheck)}>Team Two Class</button>
+
+          <section className={teamTwoClassCheck ? 'DropdownClassActive' : 'DropdownClassInactive'}>
+
+            {
+              (teamTwoCategory === "League")
+                ?
+                (leagueClasses.map((item) => (
+                  <p key={item} onClick={() => setTeamTwoClass(item) & setTeamTwoClassCheck(!teamTwoClassCheck)}>
+                    {item}
+                  </p>
+                )))
+                :
+                (nationalClasses.map((item) => (
+                  <p key={item} onClick={() => setTeamTwoClass(item) & setTeamTwoClassCheck(!teamTwoClassCheck)}>
+                    {item}
+                  </p>
+                )))
+            }
+
+          </section>
+
+        </section>
+
       </section>
 
       <section className='ThirdLine'>
+
+        <button className='RunButton' onClick={() => SelectTeam()}>Run</button>
+
+        <section className='Teams'>
+          <h1>{teamOne}</h1>
+          <h1>{teamTwo}</h1>
+        </section>
 
       </section>
 
