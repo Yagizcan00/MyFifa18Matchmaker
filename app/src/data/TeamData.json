@@ -2,511 +2,517 @@
     {
         "id": 0,
         "Team Name": "Manchester City",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "S"
     },
     {
         "id": 1,
         "Team Name": "Bayern München",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "S"
     },
     {
         "id": 2,
         "Team Name": "Barcelona",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "S"
     },
     {
         "id": 3,
         "Team Name": "Real Madrid",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "S"
     },
     {
         "id": 4,
         "Team Name": "Juventus",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "S"
     },
     {
         "id": 5,
         "Team Name": "PSG",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "S"
     },
     {
         "id": 6,
         "Team Name": "Dortmund",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "A"
     },
     {
         "id": 7,
         "Team Name": "Arsenal",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "A"
     },
     {
         "id": 8,
         "Team Name": "Chelsea",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "A"
     },
     {
         "id": 9,
         "Team Name": "Liverpool",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "A"
     },
     {
         "id": 10,
         "Team Name": "Manchester United",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "A"
     },
     {
         "id": 11,
         "Team Name": "Spurs",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "A"
     },
     {
         "id": 12,
         "Team Name": "Atletico Madrid",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "A"
     },
     {
         "id": 13,
         "Team Name": "Inter",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "A"
     },
     {
         "id": 14,
         "Team Name": "Napoli",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "A"
     },
     {
         "id": 15,
         "Team Name": "Roma",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "A"
     },
     {
         "id": 16,
         "Team Name": "Hoffenheim",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 17,
         "Team Name": "Bayer Leverkusen",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 18,
         "Team Name": "Schalke",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 19,
         "Team Name": "Borussia M'gladbach",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 20,
         "Team Name": "Wolfsburg",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 21,
         "Team Name": "Werder Bremen",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 22,
         "Team Name": "Shakhtar Donetsk",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 23,
         "Team Name": "AC Monaco",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 24,
         "Team Name": "OGC Nice",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 25,
         "Team Name": "Olympique Lyon",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 26,
         "Team Name": "Olympique Marseille",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 27,
         "Team Name": "Everton",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 28,
         "Team Name": "Southampton",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 29,
         "Team Name": "West Ham",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 30,
         "Team Name": "Athletic Bilbao",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 31,
         "Team Name": "Real Sociedad",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 32,
         "Team Name": "Sevilla",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 33,
         "Team Name": "Valencia",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 34,
         "Team Name": "Villarreal",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 35,
         "Team Name": "Fiorentina",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 36,
         "Team Name": "Lazio",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 37,
         "Team Name": "Milan",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 38,
         "Team Name": "Torino",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 39,
         "Team Name": "FC Porto",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 40,
         "Team Name": "Benfica",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 41,
         "Team Name": "Sporting CP",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 42,
         "Team Name": "Spartak Moscow",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 43,
         "Team Name": "Zenit",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 44,
         "Team Name": "Besiktas",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 45,
         "Team Name": "Fenerbahce",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 46,
         "Team Name": "Galatasaray",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "B"
     },
     {
         "id": 47,
         "Team Name": "FC Koln",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 48,
         "Team Name": "Mainz",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 49,
         "Team Name": "Frankfurt",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 50,
         "Team Name": "Hertha Berlin",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 51,
         "Team Name": "Leipzig",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 52,
         "Team Name": "Boca Juniors",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 53,
         "Team Name": "River Plate",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 54,
         "Team Name": "Club Brugge",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 55,
         "Team Name": "Anderlecht",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 56,
         "Team Name": "Ajax",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 57,
         "Team Name": "Feyenoord",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 58,
         "Team Name": "PSV Eindhoven",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 59,
         "Team Name": "Bournemouth",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 60,
         "Team Name": "Burnley",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 61,
         "Team Name": "Leicester City",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 62,
         "Team Name": "Newcastle",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 63,
         "Team Name": "Stoke City",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 64,
         "Team Name": "Swansea City",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 65,
         "Team Name": "Watford",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 66,
         "Team Name": "West Brom",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 67,
         "Team Name": "Celtic",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 68,
         "Team Name": "Celta Vigo",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 69,
         "Team Name": "Levante",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 70,
         "Team Name": "Malaga",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 71,
         "Team Name": "Deportivo",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 72,
         "Team Name": "Espanyol",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 73,
         "Team Name": "Real Betis",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 74,
         "Team Name": "Eibar",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 75,
         "Team Name": "Atalanta",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 76,
         "Team Name": "Chievo Verona",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 77,
         "Team Name": "Sampdoria",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 78,
         "Team Name": "CSKA Moscow",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 79,
         "Team Name": "Krasnodar",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 79,
         "Team Name": "Krasnodar",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 80,
         "Team Name": "Lokomotiv Moscow",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 81,
         "Team Name": "Rubin Kazan",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 82,
         "Team Name": "Başakşehir",
-        "Team Category": "League",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
         "id": 83,
         "Team Name": "Trabzon",
-        "Team Category": "League",
+        "Team Category": "Club",
+        "Team Class": "C"
+    },
+    {
+        "id": 111,
+        "Team Name": "Olympiacos",
+        "Team Category": "Club",
         "Team Class": "C"
     },
     {
@@ -669,12 +675,6 @@
         "id": 110,
         "Team Name": "Switzerland",
         "Team Category": "National",
-        "Team Class": "C"
-    },
-    {
-        "id": 111,
-        "Team Name": "Olympiacos",
-        "Team Category": "League",
         "Team Class": "C"
     }
 ]
